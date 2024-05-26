@@ -27,15 +27,17 @@ public class Hospital {
     public void displayPatients(){
         for(int i=0; i<patients.size(); i++){
             patients.get(i).displayInfo();
+            System.out.println();
         }
-        System.out.println(" ");
+        System.out.println();
     }
 
     public void displayStaff(){
         for(int i=0; i<staff.size(); i++){
             staff.get(i).displayInfo();
+            System.out.println(" ");
         }
-        System.out.println(" ");
+        System.out.println();
     }
 
 }

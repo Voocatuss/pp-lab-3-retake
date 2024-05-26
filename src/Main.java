@@ -38,8 +38,24 @@ public class Main {
         hospital.displayStaff();
         hospital.displayPatients();
 
-        hospital.removeStaff(nurse1);
-        hospital.removePatient(patient4);
+        Patient patient5 = new Patient();
+        Patient patient6 = new Patient();
+
+        hospital.addPatients(patient5);
+        hospital.addPatients(patient6);
+
+        Doctor doctor2 = new Doctor();
+        Nurse nurse2 = new Nurse();
+        Nurse nurse3 = new Nurse();
+        Nurse nurse4 = new Nurse();
+
+        hospital.addStaff(doctor2);
+        hospital.addStaff(nurse2);
+        hospital.addStaff(nurse3);
+        hospital.addStaff(nurse4);
+
+        hospital.removeStaff(nurse3);
+        hospital.removePatient(patient5);
 
         hospital.displayStaff();
         hospital.displayPatients();
