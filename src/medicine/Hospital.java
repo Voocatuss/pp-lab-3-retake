@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Hospital {
 
-    static List<Patient> patients = new ArrayList<Patient>();
-    static List<MedicalStuff> staff = new ArrayList<MedicalStuff>();
+    private static List<Patient> patients = new ArrayList<Patient>();
+    private static List<MedicalStuff> staff = new ArrayList<MedicalStuff>();
 
     public void addPatients(Patient patient){
         this.patients.add(patient);

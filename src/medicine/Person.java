@@ -1,9 +1,9 @@
 package medicine;
 
 public class Person {
-    private String firsstName;
-    private String lastName;
-    private int age;
+    private static String firsstName;
+    private static String lastName;
+    private static int age;
 
 
     public String getFirsstName() {
