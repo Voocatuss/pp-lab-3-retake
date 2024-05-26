@@ -2,7 +2,7 @@ package medicine;
 
 public class Patient extends Person {
     private String illness;
-    public int roomNumber;
+    private int roomNumber;
 
     public String getIllness() {
         return illness;
