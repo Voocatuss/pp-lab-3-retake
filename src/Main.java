@@ -1,3 +1,4 @@
+import medicine.Doctor;
 import medicine.Patient;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -8,19 +9,26 @@ public class Main {
         Patient patient2 = new Patient();
         Patient patient3 = new Patient();
         Patient patient4 = new Patient();
+        Doctor doctor1 = new Doctor();
 
-        patient1.displayInfo();
-        System.out.println();
+        doctor1.set
+
         patient2.displayInfo();
         System.out.println();
-        patient3.displayInfo();
-        System.out.println();
-        patient4.displayInfo();
-        System.out.println();
+
 
         patient2.setIllness("przeziębienie");
         patient2.setRoomNumber(5);
 
         patient2.displayInfo();
+        System.out.println();
+
+        doctor1.performDuty();
+        System.out.println(doctor1.getSpecialization());
+
+        doctor1.setSpecialization("Kardiolog");
+
+        System.out.println(doctor1.getSpecialization());
+
     }
 }
